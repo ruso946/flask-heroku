@@ -5,7 +5,7 @@ from flask_marshmallow import Marshmallow
 app=Flask(__name__)
 CORS(app)
 # configuro la base de datos, con el nombre el usuario y la clave
-app.config['SQLALCHEMY_DATABASE_URI']='postgresql://ycjxruewvzsvcx:c11aa5259114b649dac47d926d7c428d1ec561d071ed95fa8f207a8e480644f3@ec2-44-198-82-71.compute-1.amazonaws.com:5432/ddg3ll5sag9984'
+app.config['SQLALCHEMY_DATABASE_URI']='postgresql://sbqpukpltgbsob:81a92444fd4a550fa8113b687e5fe6edcc4bb72cd8f86732ae7da9b3d90ae513@ec2-3-225-213-67.compute-1.amazonaws.com:5432/dpasaokdnj2qr'
 #app.config['SQLALCHEMY_DATABASE_URI']='postgresql://jrjbxumefrnvba:45f8243c7d8e5aa1acea415e0caa9d7691ddf010e4cda206f0acbc4b85fc0e55@ec2-3-223-169-166.compute-1.amazonaws.com:5432/decsgecjdv1sfs'
 #                                                   user:clave@localhost/nombreBaseDatos
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False

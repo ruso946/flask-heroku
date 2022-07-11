@@ -9,7 +9,7 @@ function guardar() {
         apellido: a,
         dni: d
     }
-    let url = "postgresql://ycjxruewvzsvcx:c11aa5259114b649dac47d926d7c428d1ec561d071ed95fa8f207a8e480644f3@ec2-44-198-82-71.compute-1.amazonaws.com:5432/ddg3ll5sag9984"
+    let url = "postgresql://sbqpukpltgbsob:81a92444fd4a550fa8113b687e5fe6edcc4bb72cd8f86732ae7da9b3d90ae513@ec2-3-225-213-67.compute-1.amazonaws.com:5432/dpasaokdnj2qr"
     var options = {
         body: JSON.stringify(paciente),
         method: 'POST',
